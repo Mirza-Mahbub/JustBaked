@@ -94,7 +94,8 @@
       </div>
       <!-- -----------------------Browse | Search | Login----------------- -->
       <div
-        class="flex flex-col justify-center items-center gap-[10px] self-stretch border-t border-t-[#B2B2B2] bg-gradient-to-t from-[#FFE6C5] to-[#FFF]"
+        class="flex flex-col justify-center items-center gap-[10px] self-stretch border-t border-t-[#B2B2B2]"
+        style="background: linear-gradient(0deg, #fff 0%, #fff 100%), #ffe6c5"
       >
         <div
           class="flex py-5 px-2 lg:px-5 xl:px-16 2xl:px-[130px] justify-between items-center self-stretch"
@@ -158,7 +159,7 @@
     <!-- --------------------------------Hero Section---------------------- -->
 
     <section
-      class="w-full p-5 lg:px-0 lg:py-14 flex items-center justify-center bg-cover bg-center bg-[url('image/Banner%20Image/Banner.jpg')]"
+      class="w-full p-5 lg:px-0 lg:py-14 2xl:py-[60px] flex items-center justify-center bg-cover bg-center bg-[url('image/Banner%20Image/Banner.jpg')]"
     >
       <div
         class="flex flex-col lg:flex-row gap-[30px] w-full xl:px-16 2xl:px-[130px] lg:px-5"
@@ -167,9 +168,9 @@
         <div
           class="w-full lg:w-[calc(100%-28rem-30px)] 2xl:w-[calc(100%-533px-30px)] self-stretch h-[460px] lg:h-[400px] 2xl:h-[460px] rounded-2xl bg-[linear-gradient(0deg,#FFF4DE_0%,#FFF4DE_100%),linear-gradient(180deg,#FFF_0.33%,#B3B3B3_62.18%,#FFF_100%)]"
         >
-          <!-- bg-[length:100%] md:bg-[length:100%] -->
+          <!-- use only bg image needs to resize (bg-[length:100%] md:bg-[length:100%]) -->
           <div
-            class="h-full w-full bg-bottom-right md:bg-right bg-no-repeat bg-contain pl-5 md:px-[76px] bg-[url('image/Banner%20Image/fastFood.webp')]"
+            class="h-full w-full bg-bottom-right md:bg-right bg-no-repeat bg-contain pl-5 md:px-[76px] bg-[url('image/Banner%20Image/fastFood.webp')] rounded-2xl"
           >
             <div
               class="flex flex-col justify-center gap-[30px] max-w-[446px] h-full"
@@ -196,7 +197,7 @@
           class="w-full lg:w-md 2xl:w-[533px] h-[460px] lg:h-[400px] 2xl:h-[460px] rounded-2xl bg-primary-strong"
         >
           <div
-            class="w-full h-full bg-no-repeat bg-bottom-right px-5 md:pl-[59px] bg-contain lg:bg-auto bg-[url('image/Banner%20Image/PizzaSlice.webp')]"
+            class="w-full h-full bg-no-repeat bg-bottom-right px-5 md:pl-[59px] bg-contain lg:bg-auto bg-[url('image/Banner%20Image/PizzaSlice.webp')] rounded-2xl"
           >
             <div class="h-full flex flex-col gap-[30px] justify-center">
               <h3
@@ -213,6 +214,1197 @@
                 <span class="uppercase text-sm font-bold text-primary-strong"
                   >Shop now</span
                 >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------New Arrival---------------- -->
+    <section class="w-full p-5 xl:px-16 2xl:px-[130px] lg:py-14 2xl:py-[60px]">
+      <div class="w-full flex flex-col gap-[30px]">
+        <!-- ------------Product category---------- -->
+        <div class="w-full flex justify-between items-center">
+          <h3
+            class="text-2xl text-primary-strong font-bold leading-3.5 uppercase"
+          >
+            New Arrival
+          </h3>
+          <div class="flex items-center gap-2.5">
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M7 1L2 6L7 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M1 1L6 6L1 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- --------------Product Grid----------- -->
+        <div
+          class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-[35px]"
+        >
+          <!-- Title card -->
+          <div
+            class="w-full h-[440px] flex items-center justify-center p-5 rounded-[10px] bg-[#FFF5E6] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)]"
+          >
+            <img
+              src="image/newArrival/newArrivalLogo.svg"
+              alt="New arrival"
+              class="w-[180px] h-[225px] flex-shrink-0 aspect-[4/5]"
+            />
+          </div>
+          <!-- Product 1 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/newArrival/freshCroissant.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Fresh Croissant
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-[9.5px] px-5 justify-center items-center gap-2.5 self-stretch rounded-[5px] bg-orange-600 cursor-pointer"
+              >
+                <img src="image/newArrival/Vector.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- Product 2 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/newArrival/FreshBread.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Fresh Bread
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Product 3 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/newArrival/Patties.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Patties
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/newArrival/CroissantChocoBan.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[18px] text-[#000]"
+              >
+                Croissant choco buns
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------Fast Food-------------- -->
+    <section
+      class="w-full p-5 xl:px-16 2xl:px-[130px] lg:py-14 2xl:py-[60px] bg-[url('image/fastFood/fastFoodBg.webp')] bg-cover bg-center bg-no-repeat"
+    >
+      <div class="w-full flex flex-col gap-[30px]">
+        <!-- ------------Product category---------- -->
+        <div class="w-full flex justify-between items-center">
+          <h3 class="text-2xl text-primary-strong font-bold leading-3.5">
+            FAST FOOD
+          </h3>
+          <div class="flex items-center gap-2.5">
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M7 1L2 6L7 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M1 1L6 6L1 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- --------------Product Grid----------- -->
+        <div
+          class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-[35px]"
+        >
+          <!-- Title card -->
+          <div
+            class="w-full h-[440px] flex items-center justify-center p-5 rounded-[10px] bg-[#FFF5E6] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)]"
+          >
+            <img
+              src="image/fastFood/fastFoodLogo.svg"
+              alt="New arrival"
+              class="w-[180px] h-[225px] flex-shrink-0 aspect-[4/5]"
+            />
+          </div>
+          <!-- Product 1 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/fastFood/burger.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Burger
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-center gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-center gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-[9.5px] px-5 justify-center items-center gap-2.5 self-stretch rounded-[5px] bg-orange-600 cursor-pointer"
+              >
+                <img src="image/newArrival/Vector.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- Product 2 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/fastFood/pizza.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Pizza
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Product 3 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/fastFood/chowmin.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Chowmein
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/fastFood/vegetableRoll.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Vegetable Roll
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------Signature series-------------- -->
+    <section class="w-full p-5 xl:px-16 2xl:px-[130px] lg:py-14 2xl:py-[60px]">
+      <div class="w-full flex flex-col gap-[30px]">
+        <!-- ------------Product category---------- -->
+        <div class="w-full flex justify-between items-center">
+          <h3 class="text-2xl text-primary-strong font-bold leading-3.5">
+            SIGNATURE SERIES
+          </h3>
+          <div class="flex items-center gap-2.5">
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M7 1L2 6L7 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M1 1L6 6L1 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- --------------Product Grid----------- -->
+        <div
+          class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-[35px]"
+        >
+          <!-- Title card -->
+          <div
+            class="w-full h-[440px] flex items-center justify-center p-5 rounded-[10px] bg-[#FFF5E6] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)]"
+          >
+            <img
+              src="image/signatureSeries/signatureLogo.svg"
+              alt="New arrival"
+              class="w-[180px] h-[225px] flex-shrink-0 aspect-[4/5]"
+            />
+          </div>
+          <!-- Product 1 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/signatureSeries/shingara.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Fresh Croissant
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-center gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-center gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-[9.5px] px-5 justify-center items-center gap-2.5 self-stretch rounded-[5px] bg-orange-600 cursor-pointer"
+              >
+                <img src="image/newArrival/Vector.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- Product 2 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/signatureSeries/Suslick.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Shashlik
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Product 3 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/newArrival/Patties.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Patties
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/newArrival/CroissantChocoBan.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[16px] text-[#000]"
+              >
+                Croissant choco buns
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------------Best Selling--------- -->
+    <section
+      class="w-full p-5 xl:px-16 2xl:px-[130px] lg:py-14 2xl:py-[60px] bg-[url('image/fastFood/fastFoodBg.webp')] bg-cover bg-center bg-no-repeat"
+    >
+      <div class="w-full flex flex-col gap-[30px]">
+        <!-- ------------Product category---------- -->
+        <div class="w-full flex justify-between items-center">
+          <h3 class="text-2xl text-primary-strong font-bold leading-3.5">
+            BEST SELLING
+          </h3>
+          <div class="flex items-center gap-2.5">
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M7 1L2 6L7 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M1 1L6 6L1 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- --------------Product Grid----------- -->
+        <div
+          class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-[35px]"
+        >
+          <!-- Title card -->
+          <div
+            class="w-full h-[440px] flex items-center justify-center p-5 rounded-[10px] bg-[#FFF5E6] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)]"
+          >
+            <img
+              src="image/bestSelling/BestsellingLogo.png"
+              alt="New arrival"
+              class="w-[180px] h-[225px] flex-shrink-0 aspect-[4/5]"
+            />
+          </div>
+          <!-- Product 1 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/newArrival/freshCroissant.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Fresh Croissant
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-center gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-center gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-[9.5px] px-5 justify-center items-center gap-2.5 self-stretch rounded-[5px] bg-orange-600 cursor-pointer"
+              >
+                <img src="image/newArrival/Vector.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- Product 2 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/bestSelling/samosa.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Samosa
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Product 3 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/fastFood/chowmin.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Chowmein
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div
+            class="flex w-full h-[440px] flex-col justify-between items-center p-5 rounded-[10px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)] bg-white"
+          >
+            <img
+              src="image/newArrival/Patties.webp"
+              alt="Product Image"
+              class="w-[264px] h-[264px] flex-shrink-0"
+            />
+            <div class="flex flex-col items-center gap-5 self-stretch">
+              <h4
+                class="text-center text-xl font-bold leading-[14px] text-[#000]"
+              >
+                Patties
+              </h4>
+              <div class="flex justify-center items-center gap-5 self-stretch">
+                <!-- Price -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >৳</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >165</span
+                  >
+                </div>
+                <!-- quantity -->
+                <div
+                  class="flex py-[5px] px-2.5 justify-center items-start gap-[2px] rounded-[5px] border border-[#949494]"
+                >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >10</span
+                  >
+                  <span
+                    class="text-center text-[12px] font-semibold leading-3.5 text-[#000]"
+                    >PC</span
+                  >
+                </div>
+              </div>
+              <button
+                class="flex py-3 px-5 justify-center items-center gap-2.5 self-stretch bg-primary-strong rounded-[5px] cursor-pointer"
+              >
+                <span
+                  class="text-center text-[12px] font-bold leading-3.5 text-[#FFF] uppercase"
+                  >Add to cart</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------Combo Package------------ -->
+    <section class="w-full p-5 xl:px-16 2xl:px-[130px] lg:py-14 2xl:py-[60px]">
+      <div class="w-full flex flex-col gap-[30px]">
+        <!-- ------------Product category---------- -->
+        <div class="w-full flex justify-between items-center">
+          <h3
+            class="text-2xl text-primary-strong font-bold leading-3.5 uppercase"
+          >
+            Combo Packages
+          </h3>
+          <div class="flex items-center gap-2.5">
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M7 1L2 6L7 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="bg-[#F3F3F3] py-2.5 px-3 cursor-pointer rounded-[5px]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+              >
+                <path
+                  d="M1 1L6 6L1 11"
+                  stroke="#949494"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- -----------Product Banners--------- -->
+        <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-[35px]">
+          <!-- 1st card -->
+          <div
+            class="w-full h-[440px] flex justify-start items-center pl-5 sm:pl-[54px] bg-[url('image/ComboPackage/SpinachPizzaBurger.webp')] bg-cover bg-center bg-no-repeat rounded-[20px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)]"
+          >
+            <div class="w-[264px] flex flex-col justify-between gap-[30px]">
+              <h3
+                class="text-wrap text-primary-strong font-semibold text-3xl sm:text-[38px]"
+              >
+                Spinach Pizza & Burger
+              </h3>
+              <p class="text-lg text-black font-normal">
+                Goodbye to mom's worries! Serve your child healthy, nutritious
+                snacks and tiffin.
+              </p>
+              <button
+                class="mt-5 bg-primary-strong text-white w-fit py-2.5 px-5 text-sm font-bold uppercase rounded-[5px] cursor-pointer"
+              >
+                Order NOW
+              </button>
+            </div>
+          </div>
+          <!-- 2nd card -->
+          <div
+            class="w-full h-[440px] flex justify-start items-center pl-5 sm:pl-[54px] bg-[url('image/ComboPackage/ChickenMixedVegetables.webp')] bg-cover bg-center bg-no-repeat rounded-[20px] shadow-[0px_10px_20px_0px_rgba(0,0,0,0.10)]"
+          >
+            <div class="w-[300px] flex flex-col justify-between gap-[30px]">
+              <h3
+                class="text-wrap text-primary-strong font-semibold text-3xl sm:text-[38px]"
+              >
+                Chicken mixed vegetable chowmein and Chicken drumsticks
+              </h3>
+
+              <button
+                class="bg-primary-strong text-white w-fit py-2.5 px-5 text-sm font-bold uppercase rounded-[5px] cursor-pointer"
+              >
+                Order NOW
               </button>
             </div>
           </div>
