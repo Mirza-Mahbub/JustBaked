@@ -11,7 +11,10 @@
     />
   </head>
   <body>
-    <div class="relative w-full h-screen flex justify-center bg-[#FFE6C5]">
+    <!-- --------------------DeskTop--------------- -->
+    <div
+      class="relative w-full h-screen lg:flex justify-center bg-[#FFE6C5] hidden"
+    >
       <!-- overlay -->
       <div
         class="absolute top-0 left-0 w-[100%] h-[100%] bg-cover bg-center opacity-[1] bg-[url('image/contact/overlay.png')]"
@@ -73,7 +76,7 @@
                         >
                       </div>
                       <div class="flex items-center gap-[30px]">
-                        <img src="image/contact/phone.svg" alt="" />
+                        <img src="image/contact/location.svg" alt="" />
                         <span class="text-white font-normal"
                           >W/20, Noorjahan Road<br />
                           Mohammadpur, Dhaka-1207</span
@@ -89,4 +92,103 @@
       </div>
     </div>
   </body>
+  <!-- ---------------Mobile---------------- -->
+  <div
+    class="relative w-full h-[100dvh] flex justify-center bg-[#FFE6C5] lg:hidden"
+  >
+    <div
+      class="absolute top-0 left-0 w-[100%] h-[100%] bg-cover bg-center opacity-[1] bg-[url('image/contact/mobileOverlay.png')]"
+    ></div>
+    <div class="w-full">
+      <div class="w-full flex justify-center my-2.5">
+        <img src="image/contact/mobileLogo.svg" alt="" />
+      </div>
+      <!-- Brown BG -->
+      <div
+        class="bg-[url('image/contact/mobileRectengularBG.png')] h-[410px] w-full flex justify-center"
+      >
+        <!-- Main Content -->
+        <div class="">
+          <h1 class="text-base text-white font-bold text-center mt-4 px-2.5">
+            Get In Touch
+          </h1>
+          <p
+            class="text-white text-[10px] text-center font-semibold relative z-10 px-2.5 mb-4"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <!-- City Map BG -->
+          <div
+            class="relative bg-[url('image/contact/mmap.png')] z-20 w-[317px] h-[567px] bg-center bg-cover bg-no-repeat p-5 rounded-3xl mx-auto"
+          >
+            <div class="bg-primary-strong w-full max-w-[494px] rounded-[15px]">
+              <div
+                class="p-5 bg-[url('image/contact/food.png')] bg-right bg-contain bg-no-repeat"
+              >
+                <div class="flex flex-col gap-5">
+                  <div class="">
+                    <h3 class="text-white text-base font-semibold">
+                      Contact Information
+                    </h3>
+                    <p class="text-white text-[10px] font-normal">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod
+                    </p>
+                  </div>
+                  <div class="flex flex-col gap-3">
+                    <!-- phone -->
+                    <div class="flex items-center gap-2.5">
+                      <img
+                        src="image/contact/phone.svg"
+                        alt=""
+                        class="w-[24px] h-[24px]"
+                      />
+                      <span class="text-white font-normal text-[12px]"
+                        >+880 1711 535 658<br />+880 1755 682 026</span
+                      >
+                    </div>
+                    <!-- fb -->
+                    <div class="flex items-center gap-2.5">
+                      <img
+                        src="image/contact/fb.svg"
+                        alt=""
+                        class="w-[24px] h-[24px]"
+                      />
+                      <span class="text-white font-normal text-[12px]"
+                        >/Justbakedbd</span
+                      >
+                    </div>
+                    <!-- email -->
+                    <div class="flex items-center gap-2.5">
+                      <img
+                        src="image/contact/email.svg"
+                        alt=""
+                        class="w-[24px] h-[24px]"
+                      />
+                      <span class="text-white font-normal text-[12px]"
+                        >info@justbakedbd.com</span
+                      >
+                    </div>
+
+                    <div class="flex items-center gap-2.5">
+                      <img
+                        src="image/contact/location.svg"
+                        alt=""
+                        class="w-[24px] h-[24px]"
+                      />
+                      <span class="text-white font-normal text-[12px]"
+                        >W/20, Noorjahan Road<br />
+                        Mohammadpur, Dhaka-1207</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>
